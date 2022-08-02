@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #444444;
+    background-color: black;
+}
+.nav .a{
+    color:red;
+} 
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section-products {
+    padding: 80px 0 54px;
+    
+}
+
+.section-products .header {
+    margin-bottom: 50px;
+}
+
+.section-products .header h3 {
+    font-size: 2.5rem;
+    color: #fe302f;
+    font-weight: 500;
+}
+
+.section-products .header h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #444444; 
+}
+
+.section-products .single-product {
+    margin-bottom: 26px;
+    
+}
+
+.section-products .single-product .part-1 {
+    position: relative;
+    height: 290px;
+    max-height: 290px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.section-products .single-product .part-1::before {
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		transition: all 0.3s;
+}
+
+.section-products .single-product:hover .part-1::before {
+		transform: scale(1.2,1.2) rotate(5deg);
+}
+
+.section-products #product-1 .part-1::before {
+    background: url("../images/kris-gerhard-0BKZfcamvGg-unsplash.jpg") no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
+
+.section-products #product-2 .part-1::before {
+    background: url("../images/maksim-larin-NOpsC3nWTzY-unsplash.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-3 .part-1::before {
+    background: url("../images/the-dk-photography-NUoPWImmjCU-unsplash.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-4 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657168112/PicsArt_07-07-09.26.41_m8z63w.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-5 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166620/pexels-terrance-barksdale-6692038_s60vcg.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-6 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166620/pexels-mnz-1598505_pzenng.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-6 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166621/pexels-jonathan-garc%C3%ACa-8490975_b8amjo.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-7 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166621/pexels-damian-barczak-8381335_esmqih.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-8 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166621/pexels-jonathan-cooper-9660950_uz9nlk.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-9 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166622/usama-akram-kP6knT7tjn4-unsplash_1_fcsn0w.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-10 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166622/camila-damasio-mWYhrOiAgmA-unsplash_ug25z3.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-11 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166622/paul-gaudriault-a-QH9MAAVNI-unsplash_xxhhzg.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-12 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166624/pexels-mnz-1599005_n3bxvc.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-13 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166624/pexels-suraj-b-2759783_jks3iy.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-14 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166624/new-balance-920-release-date-price-01_dg1dog.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-15 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166624/felipepelaquim-6zO5VKogoZE-unsplash_xirxcz.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-16 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166625/sz_373180_a_ly0zrf.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-17 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166624/pexels-wallace-chuck-8473581_qxzmn0.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-18 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166624/pexels-hipkicks-6748334_rh6lzk.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-19.part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166624/pexels-wallace-chuck-8473581_qxzmn0.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-20 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166625/sz_373180_a_ly0zrf.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-21 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166625/s-l400_1_bkxoto.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-22 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166625/new-balance-920-M920GKR-Lead_clu5qo.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-23 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166625/new-balance-9060-sea-salt-u9060mac-release-date-0-1168x622_dznjsm.webp") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-24 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166625/new-balance-550-multi-color-bb550ssc-release-date-0-1168x622_keocbm.webp") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-25 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166625/new-balance-550-multi-color-bb550ssc-release-date-0-1168x622_keocbm.webp") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-26 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657166625/puma-mb-01-lo-team-colors-1_di9bpw.webp") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-27 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657174588/stranger-things-vans-old-skool-hellfire-club-release-date-1_c6r9ae.webp") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-28 .part-1::before {
+    background: url("https://res.cloudinary.com/djntccokk/image/upload/v1657174589/kith-adidas-campus-80s-01_e9gpm7.jpg") no-repeat center;
+    background-size: cover;
+}
+
+
+.section-products .single-product .part-1 .discount,
+.section-products .single-product .part-1 .new {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #ffffff;
+    background-color: #fe302f;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.section-products .single-product .part-1 .new {
+    left: 0;
+    background-color: #444444;
+}
+
+.section-products .single-product .part-1 ul {
+    position: absolute;
+    bottom: -41px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.section-products .single-product:hover .part-1 ul {
+    bottom: 55px;
+    opacity: 1;
+}
+
+.section-products .single-product .part-1 ul li {
+    display: inline-block;
+    margin-right: 4px;
+}
+.product-links{
+    position: absolute;
+    bottom: 145px;
+    left: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 1;
+    text-decoration: none;
+}
+    .product-links a{
+        color: #fff;
+        background-color: orangered;
+        font-size: 18px;
+        text-shadow: 0 0 3px rgba(0,0,0,0.7);
+        padding: 8px 10px;
+        display: block;
+        opacity: 0.9;
+        border-radius: 15px;
+        transition: all 0.3s ease 0s;
+        animation: bg-animate 5s infinite linear;
+        text-decoration: none;
+   
+}
+.product-links li{
+    margin: 0 0 5px;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 0.3s ease 0s;
+}
+.product-links li:nth-child(2){ transition: all 0.3s ease 0.15s; }
+.product-links li{
+    opacity: 1;
+    transform: translateX(0);
+}
+.product-links li a{
+    color: #fff;
+    background-color: #f84a05;
+    font-size: 14px;
+    text-shadow: 0 0 3px rgba(0,0,0,0.7);
+    padding: 8px 10px;
+    display: block;
+    opacity: 0.9;
+    transition: all 0.3s ease 0s;
+    animation: bg-animate 5s infinite linear;
+    text-decoration: none;
+}
+.product-links li a:hover{
+   
+    box-shadow: 0 0 0 3px #000 inset;
+    opacity: 1;
+    text-decoration: none;
+}
+.product-links li a i{ margin: 0 5px 0 0; }
+
+.section-products .single-product .part-1 ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ffffff;
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+    transition: color 0.2s;
+    text-decoration: none;
+}
+.buy-now{
+    position: absolute;
+    bottom: 150px;
+   right: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 1;
+    text-decoration: none; 
+    border-radius: 15px;
+}
+.buy-now a{
+    border-radius: 15px;
+    color: #fff;
+    background-color: green;
+    font-size: 18px;
+    text-shadow: 0 0 3px rgba(0,0,0,0.7);
+    padding: 8px 10px;
+    display: block;
+    opacity: 0.9;
+    border-radius: 15px;
+    transition: all 0.3s ease 0s;
+    animation: bg-animate 5s infinite linear;
+    text-decoration: none;
+
+}
+.buy-now li a{
+    color: #fff;
+    background-color: green;
+    font-size: 14px;
+    text-shadow: 0 0 3px rgba(0,0,0,0.7);
+    padding: 8px 10px;
+    display: block;
+    opacity: 0.9;
+    transition: all 0.3s ease 0s;
+    animation: bg-animate 5s infinite linear;
+    text-decoration: none;
+}
+.section-products .single-product .part-1 ul li a:hover {
+    color: #fe302f;
+}
+
+.section-products .single-product .part-2 .product-title {
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 h4 {
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 .product-old-price {
+    position: relative;
+    padding: 0 7px;
+    margin-right: 9px;
+    opacity: 0.6;
+}
+
+.section-products .single-product .part-2 .product-old-price::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #444444;
+    transform: translateY(-50%);
+}
